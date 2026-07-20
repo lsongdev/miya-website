@@ -33,7 +33,7 @@ h1 { max-width: 780px; margin-bottom: 0.2em; font-size: 7.4rem; line-height: 0.9
 h2 { margin-bottom: 0.5em; font-size: 3.4rem; line-height: 1.05; }
 h3 { margin-bottom: 0.35em; font-size: 1.12rem; line-height: 1.3; }
 
-.container { width: min(calc(100% - 40px), var(--miya-width)); margin-inline: auto; }
+.site-container { width: min(calc(100% - 40px), var(--miya-width)); margin-inline: auto; }
 .skip-link {
   position: fixed;
   top: 12px;
@@ -213,7 +213,7 @@ h3 { margin-bottom: 0.35em; font-size: 1.12rem; line-height: 1.3; }
   h1 { font-size: 3.4rem; }
   h2 { font-size: 2.2rem; }
   .error-page h1 { font-size: 3.4rem; }
-  .container { width: min(calc(100% - 28px), var(--miya-width)); }
+  .site-container { width: min(calc(100% - 28px), var(--miya-width)); }
   .header-inner, .footer-inner { align-items: flex-start; flex-direction: column; }
   .site-nav { width: 100%; justify-content: flex-start; }
   .hero { min-height: 660px; }
